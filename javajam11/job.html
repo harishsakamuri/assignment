@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaJam Jobs</title>
+    <link rel="stylesheet" href="javajam.css">
+</head>
+<body>
+    <div id="wrapper">
+    <header>
+        <h1><a href="index.html"> JavaJam Coffee Bar</a></h1>
+    </header>
+    <nav>  
+        <ul>   
+           <li><a href = "index.html">Home</a></li> 
+           <li><a href = "menu.html">Menu</a></li> 
+           <li><a href = "music.html">Music</a></li> 
+           <li><a href = "job.html">Jobs</a></li> 
+        </ul>   
+    </nav>
+    <main>
+       <div id="herojobs"></div>
+       <h2>Jobs At JavaJam</h2>
+       <p>Want to work at JavaJam? Fill out the form below to start your application. All information is required.</p>
+       <form method="POST" action="https://webdevbasics.net/scripts/javajam8.php.">
+                <label for="myname">NAME:</label>
+                <input type="text" id="myName" name="myName">
+                <label for="myEmail">Email:</label>
+                <input type="text" id="myEmail" name="myEmail">
+                <label for="myStart">Start Date</label>
+                <input type="date" id="myStart" name="myStart">
+                <label for="myExperience">Experience:</label>
+                <textarea name="myExperience" id="myExperience" rows="2" cols="20"></textarea>
+                <input type="submit" value="Apply Now" id="Submit">
+       </form>
+                 
+    </main>  
+        <footer>
+            Copyright &copy; 2020 JavaJam Coffee Bar<br>
+            <a href = "mailto:harish@sakamuri.com">harish@sakamuri.com</a>
+        </footer>
+    </div>
+</body>
+</html>
